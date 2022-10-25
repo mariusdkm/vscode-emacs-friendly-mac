@@ -1,16 +1,16 @@
 {
-    "name": "vscode-emacs-friendly",
-    "displayName": "Emacs Friendly Keymap",
-    "description": "Emacs keybindings and selection, friendly interaction with the system clipboard.",
+    "name": "vscode-emacs-friendly-mac",
+    "displayName": "Emacs Friendly Keymap Mac",
+    "description": "Emacs keybindings and selection, friendly interaction with the system clipboard. With CMD as Meta key",
     "icon": "emacs_pacifica.png",
-    "version": "0.9.0",
+    "version": "0.9.1",
     "publisher": "lfs",
-    "homepage": "https://github.com/SebastianZaha/vscode-emacs-friendly",
+    "homepage": "https://github.com/mariusdkm/vscode-emacs-friendly-mac",
     "repository": {
         "type": "git",
-        "url": "https://github.com/SebastianZaha/vscode-emacs-friendly"
+        "url": "https://github.com/mariusdkm/vscode-emacs-friendly-mac"
     },
-    "bugs": "https://github.com/SebastianZaha/vscode-emacs-friendly/issues",
+    "bugs": "https://github.com/mariusdkm/vscode-emacs-friendly-mac/issues",
     "engines": {
         "vscode": "^1.30.0"
     },
@@ -162,12 +162,12 @@
                 "when": "editorFocus && findWidgetVisible"
             },
             {
-                "key": "alt+f",
+                "key": "cmd+f",
                 "command": "emacs.cursorWordRight",
                 "when": "editorTextFocus"
             },
             {
-                "key": "alt+b",
+                "key": "cmd+b",
                 "command": "emacs.cursorWordLeft",
                 "when": "editorTextFocus"
             },
@@ -202,49 +202,49 @@
                 "when": "editorFocus && findWidgetVisible"
             },
             {
-                "key": "alt+v",
+                "key": "cmd+v",
                 "command": "emacs.cursorPageUp",
                 "when": "editorTextFocus && !suggestWidgetVisible"
             },
             {
-                "key": "alt+v",
+                "key": "cmd+v",
                 "command": "closeFindWidget",
                 "when": "editorFocus && findWidgetVisible"
             },
             {
-                "key": "alt+shift+.",
+                "key": "cmd+shift+.",
                 "command": "emacs.cursorBottom",
                 "when": "editorTextFocus"
             },
             {
-                "key": "alt+shift+.",
+                "key": "cmd+shift+.",
                 "command": "closeFindWidget",
                 "when": "editorFocus && findWidgetVisible"
             },
             {
-                "key": "alt+shift+,",
+                "key": "cmd+shift+,",
                 "command": "emacs.cursorTop",
                 "when": "editorTextFocus"
             },
             {
-                "key": "alt+shift+,",
+                "key": "cmd+shift+,",
                 "command": "closeFindWidget",
                 "when": "editorFocus && findWidgetVisible"
             },
             {
-                "key": "alt+g g",
+                "key": "cmd+g g",
                 "command": "workbench.action.gotoLine"
             },
             {
-                "key": "alt+g n",
+                "key": "cmd+g n",
                 "command": "editor.action.marker.next"
             },
             {
-                "key": "alt+g p",
+                "key": "cmd+g p",
                 "command": "editor.action.marker.prev"
             },
             {
-                "key": "alt+g g",
+                "key": "cmd+g g",
                 "command": "closeFindWidget",
                 "when": "editorFocus && findWidgetVisible"
             },
@@ -254,7 +254,7 @@
                 "when": "!findWidgetVisible"
             },
             {
-                "key": "alt+shift+5",
+                "key": "cmd+shift+5",
                 "command": "editor.action.startFindReplaceAction",
                 "when": "editorFocus"
             },
@@ -289,7 +289,7 @@
                 "when": "findWidgetVisible"
             },
             {
-                "key": "ctrl+alt+n",
+                "key": "ctrl+cmd+n",
                 "command": "editor.action.addSelectionToNextFindMatch",
                 "when": "editorFocus"
             },
@@ -304,7 +304,7 @@
                 "when": "editorTextFocus && !editorReadonly"
             },
             {
-                "key": "alt+d",
+                "key": "cmd+d",
                 "command": "deleteWordRight",
                 "when": "editorTextFocus && !editorReadonly"
             },
@@ -324,12 +324,12 @@
                 "when": "editorFocus && findWidgetVisible"
             },
             {
-                "key": "alt+w",
+                "key": "cmd+w",
                 "command": "emacs.M-w",
                 "when": "editorTextFocus"
             },
             {
-                "key": "alt+w",
+                "key": "cmd+w",
                 "command": "closeFindWidget",
                 "when": "editorFocus && findWidgetVisible"
             },
@@ -432,12 +432,12 @@
                 "when": "editorFocus && findWidgetVisible"
             },
             {
-                "key": "alt+;",
+                "key": "cmd+;",
                 "command": "editor.action.blockComment",
                 "when": "editorTextFocus && !editorReadonly"
             },
             {
-                "key": "alt+;",
+                "key": "cmd+;",
                 "command": "closeFindWidget",
                 "when": "editorFocus && findWidgetVisible"
             },
@@ -637,11 +637,11 @@
                 "when": "editorTextFocus"
             },
             {
-                "key": "alt+x",
+                "key": "cmd+x",
                 "command": "workbench.action.showCommands"
             },
             {
-                "key": "ctrl+alt+space",
+                "key": "ctrl+cmd+space",
                 "command": "workbench.action.toggleSidebarVisibility"
             },
             {
@@ -664,7 +664,7 @@
                 "when": "editorTextFocus && !editorReadonly"
             },
             {
-                "key": "alt+backspace",
+                "key": "cmd+backspace",
                 "command": "deleteWordLeft",
                 "when": "editorTextFocus && !editorReadonly"
             }
